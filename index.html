@@ -4,14 +4,22 @@
             <meta charset="UTF-8" />
             <title>Juan Camilo Urbano</title>
             <link rel="icon" href="../../../../../mnt/c/Users/juan-/Desktop/Programación/Portafolio/Logo/icono.png"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/estilos.css">
+            <style>
+                header {
+                    background: green;
+                }
+            </style>
         </head>
         <body>
-            <header>
+            <header class="header">
                 <div>
                     <div>
                         <img src="https://i.imgur.com/SHuFeTc.png" width=500px/>
                     </div>
-                    <nav>
+                    <nav class="menu">
                         <ol>
                             <li>
                                 <a href = "#projects">Projects</a>
@@ -26,46 +34,50 @@
                     </nav>
                 </div>
             </header>
-            <section>
+            <section class="hero">
                 <h1>
                     Hello! I am <strong>Camilo Urbano</strong>, <br> student of <strong>Control Engineering</strong>, <br> <strong>JavaScript</strong> develover <br> and tutor of <strong>Calculus</strong>.
                 </h1>
                 <img src="https://instagram.fclo1-1.fna.fbcdn.net/v/t51.2885-15/e35/49745798_2805814372977272_4681562650501900914_n.jpg?_nc_ht=instagram.fclo1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=7tRizoND5J0AX8YMHT5&tp=1&oh=0f4d29dba666634e9eb8cf18ab1057c9&oe=60198B9F" width="500"/>
             </section>
-            <section id = "projects">
-                <h2>Portafolio (Proyectos destacados)</h2>
-                <article>
-                    <h3>Hydrómetra</h3>
-                    <h6>Universidad Nacional de Colombia</h6>
-                    <p>At Hydrómetra, we work on the development of new technology for electrical vehicles to boost the sustainable mobility. </p>
+            <section id = "projects" class="projects">
+                <h2>Portfolio (main projects)</h2>
+                <article class="project">
+                    <h3 class="project-title">Hydrómetra</h3>
+                    <h6 class="project-organization">Universidad Nacional de Colombia</h6>
+                    <p class="project-description">At Hydrómetra, we work on the development of new technology for electrical vehicles to boost the sustainable mobility. </p>
+                    <p>For further information, visit the social media: Instagram, Facebook and web site</p>
+                    <figure class="project-image-container">
+                        <img class="project-image" src="https://i.imgur.com/fQdgJVc.jpg"/>
+                    </figure>
                 </article>
             </section>
             <section id= "events">
                 <h2>Events participation</h2>
-                <article>
-                    <figure>
-                        <img src="https://i.imgur.com/iNbr1Vs.png"/>
+                <article class="event">
+                    <figure class = "event-image-container">
+                        <img class= "event-image" src="https://i.imgur.com/iNbr1Vs.png"/>
                     </figure>
-                    <h3>Feria ExpoSolar Colombia 2019</h3>
-                    <p>ExpoSolar Colombia is a fair of photovoltaic energy, LED lighting, energy efficiency and electric mobility with the aim of gathering the academy, entrepreneurs, distributors, government institutions, project managers and everybody interested.</p>
-                    <a href="https://feriaexposolar.com/">Details</a>
+                    <h3 class="event-title">Feria ExpoSolar Colombia 2019</h3>
+                    <p class = "event-description">ExpoSolar Colombia is a fair of photovoltaic energy, LED lighting, energy efficiency and electric mobility with the aim of gathering the academy, entrepreneurs, distributors, government institutions, project managers and everybody interested.</p>
+                    <a class="event-url" href="https://feriaexposolar.com/" target="_balnk">Details</a>
                 </article>
-                <article>
-                    <figure>
-                        <img src="https://i.imgur.com/G5eYJ1W.png" alt="IU Pascual Bravo">
+                <article class = "event">
+                    <figure class = "event-image-container">
+                        <img class = "event-image"src="https://i.imgur.com/G5eYJ1W.png" alt="IU Pascual Bravo">
                     </figure>
-                    <h3>Movilidad Eléctrica en 2 Ruedas</h3>
-                    <p>The Pascual Bravo University organized an event to promote discusions and reflections about the progress, myths and posibilities of the electric mobility on two wheels</p>
-                    <a href = "https://pascualbravo.edu.co/panorama-de-la-movilidad-electrica-en-2-ruedas/">Details</a>
+                    <h3 class="event-title">Movilidad Eléctrica en 2 Ruedas</h3>
+                    <p class="event-description">The Pascual Bravo University organized an event to promote discusions and reflections about the progress, myths and posibilities of the electric mobility on two wheels</p>
+                    <a class="event-url" href = "https://pascualbravo.edu.co/panorama-de-la-movilidad-electrica-en-2-ruedas/" target="_balnk">Details</a>
                 </article>
             </section>
-            <section id="contact">
-                <form action="/suscripcion/">
-                    <h3>¿Deseas ponerte en contacto conmigo?</h3>
-                    <input type="text" placeholder="Déjame tu e-mail">
-                    <button>Enviar</button>
+            <section id="contact" class="contact">
+                <form action="/suscripcion/" class="formEmail">
+                    <h3 class="formEmail-description">¿Deseas ponerte en contacto conmigo?</h3>
+                    <input class="formEmail-input" type="text" placeholder="Déjame tu e-mail">
+                    <button class="formEmail-button">Enviar</button>
                 </form>
             </section>
-            <footer>footer</footer>
+            <footer class="footer">footer</footer>
         </body>
     </html>
