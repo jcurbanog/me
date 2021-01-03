@@ -1,0 +1,85 @@
+/* colores 
+A: #A1A1A1
+B: #616161
+C: #E0E0E0
+D: #EDEDED
+E: #C7C7C7
+
+A: #02666B
+B: #013538
+C: #011D1F
+D: #22676B
+E: #04AFB8 */
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.header{
+    background-color: #013538;
+    color: #E0E0E0;
+    margin: 0 0 0 0;
+}
+
+.header a{
+    color:#E0E0E0;
+    text-decoration: none;
+}
+
+.menu ol{
+    margin: 0 0 0 0;
+}
+
+.hero{
+    height: 240px;
+    background-image: url(https://instagram.fclo1-1.fna.fbcdn.net/v/t51.2885-15/e35/49745798_2805814372977272_4681562650501900914_n.jpg?_nc_ht=instagram.fclo1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=7tRizoND5J0AX8YMHT5&tp=1&oh=0f4d29dba666634e9eb8cf18ab1057c9&oe=60198B9F);
+    background-color: #013538;
+    background-size: 141px 176px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin: 0 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    letter-spacing: -0.2px;
+    color: #E0E0E0;
+    margin: 0px 150px 0px 0px;
+}
+
+h1 strong{
+    color:#04AFB8;
+}
+
+.projects{
+    background: #E0E0E0;
+}
+
+.project {
+    border: 0.1px solid #C7C7C7;
+    border-radius: 15px;
+    margin: 30px 15px;
+    padding: 5px 10px;
+    background-color: #EDEDED;
+}
+
+.project-details{
+    width: 500px;
+}
+.project-image-container{
+    width:500px;
+}
