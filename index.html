@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="es">
         <head>
+            <meta charset="UTF-8" />
             <title>Juan Camilo Urbano</title>
+            <link rel="icon" href="../../../../../mnt/c/Users/juan-/Desktop/Programación/Portafolio/Logo/icono.png"/>
         </head>
         <body>
             <header>
-                <nav>
-                    <ol>
-                        <li>
-                            <a>Portafolio</a>
-                        </li>
-                        <li>
-                            <a>Experiencia</a>
-                        </li>
-                        <li>
-                            <a>Trabajemos juntos</a>
-                        </li>
-                    </ol>
-                </nav>
+                <div>
+                    <div>
+                        <img src="https://i.imgur.com/SHuFeTc.png" width=500px/>
+                    </div>
+                    <nav>
+                        <ol>
+                            <li>
+                                <a href = "#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href = "#events">Events</a>
+                            </li>
+                            <li>
+                                <a href = "#contact">Let's work together!</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
             </header>
             <section>
                 <h1>
                     Hello! I am <strong>Camilo Urbano</strong>, <br> student of <strong>Control Engineering</strong>, <br> <strong>JavaScript</strong> develover <br> and tutor of <strong>Calculus</strong>.
                 </h1>
-                <img/> imagen
+                <img src="https://instagram.fclo1-1.fna.fbcdn.net/v/t51.2885-15/e35/49745798_2805814372977272_4681562650501900914_n.jpg?_nc_ht=instagram.fclo1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=7tRizoND5J0AX8YMHT5&tp=1&oh=0f4d29dba666634e9eb8cf18ab1057c9&oe=60198B9F" width="500"/>
             </section>
-            <section>
+            <section id = "projects">
                 <h2>Portafolio (Proyectos destacados)</h2>
                 <article>
                     <h3>Hydrómetra</h3>
@@ -33,18 +40,32 @@
                     <p>At Hydrómetra, we work on the development of new technology for electrical vehicles to boost the sustainable mobility. </p>
                 </article>
             </section>
-            <section>
+            <section id= "events">
                 <h2>Events participation</h2>
                 <article>
                     <figure>
-                        <img/>
+                        <img src="https://i.imgur.com/iNbr1Vs.png"/>
                     </figure>
                     <h3>Feria ExpoSolar Colombia 2019</h3>
                     <p>ExpoSolar Colombia is a fair of photovoltaic energy, LED lighting, energy efficiency and electric mobility with the aim of gathering the academy, entrepreneurs, distributors, government institutions, project managers and everybody interested.</p>
-                    <a>Ver detalles</a>
+                    <a href="https://feriaexposolar.com/">Details</a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="https://i.imgur.com/G5eYJ1W.png" alt="IU Pascual Bravo">
+                    </figure>
+                    <h3>Movilidad Eléctrica en 2 Ruedas</h3>
+                    <p>The Pascual Bravo University organized an event to promote discusions and reflections about the progress, myths and posibilities of the electric mobility on two wheels</p>
+                    <a href = "https://pascualbravo.edu.co/panorama-de-la-movilidad-electrica-en-2-ruedas/">Details</a>
                 </article>
             </section>
-            <section>Sección contacto</section>
+            <section id="contact">
+                <form action="/suscripcion/">
+                    <h3>¿Deseas ponerte en contacto conmigo?</h3>
+                    <input type="text" placeholder="Déjame tu e-mail">
+                    <button>Enviar</button>
+                </form>
+            </section>
             <footer>footer</footer>
         </body>
     </html>
